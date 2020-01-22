@@ -1,2 +1,2 @@
-# MixityGuesser-nodejs
-Version MixityGuesser Nodejs
+# MixityGuesser-Angular
+Version MixityGuesser Angular
