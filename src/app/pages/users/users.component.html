@@ -1,0 +1,16 @@
+<table class="table table-striped table-dark">
+	<thead>
+		<tr>
+			<th scope="col">#</th>
+			<th scope="col">Name</th>
+			<th scope="col">Email</th>
+		</tr>
+	</thead>
+	<tbody *ngIf="users">
+		<tr *ngFor="let user of users.slice().sort()">
+			<th scope="row">1</th>
+			<td>{{user.displayName}}</td>
+			<td>{{user.email}}</td>
+		</tr>
+	</tbody>
+</table>

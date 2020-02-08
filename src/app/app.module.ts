@@ -19,6 +19,7 @@ import { RoomsComponent } from './pages/rooms/rooms.component';
 import { CreditsComponent } from './pages/credits/credits.component';
 import { ScoreboardComponent } from './pages/scoreboard/scoreboard.component';
 import { HomeComponent } from './pages/home/home.component';
+import { UsersComponent } from './pages/users/users.component';
 
 @NgModule({
 	declarations: [
@@ -27,7 +28,8 @@ import { HomeComponent } from './pages/home/home.component';
 		RoomsComponent,
 		CreditsComponent,
 		ScoreboardComponent,
-		HomeComponent
+		HomeComponent,
+		UsersComponent
 	],
 	imports: [
 		CommonModule,

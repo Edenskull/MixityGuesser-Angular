@@ -1,0 +1,23 @@
+.table-dark {
+	background-color: inherit;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(2n+1) {
+	background-color: rgb(114, 122, 130);
+	opacity: .9;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(2n) {
+	background-color: rgb(52, 58, 64);
+	opacity: .9;
+}
+
+.table-dark thead {
+	background-color: rgb(52, 58, 64);
+	opacity: .9;
+}
+
+.table-dark tbody tr:hover {
+	transition: opacity 700ms;
+	opacity: 1!important;
+}
