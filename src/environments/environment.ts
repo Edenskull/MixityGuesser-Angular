@@ -3,15 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-	firebase: {
-	  apiKey: "AIzaSyDbiOlO90gBhvpo11E3MwPLmnQ1VQ7eRsE",
-	  authDomain: "mixityguesser-nodejs.firebaseapp.com",
-	  databaseURL: "https://mixityguesser-nodejs.firebaseio.com",
-	  projectId: "mixityguesser-nodejs",
-	  storageBucket: "mixityguesser-nodejs.appspot.com",
-	  messagingSenderId: "421527882914",
-	  appId: "1:421527882914:web:e4b0b602a5135bcba15bfb"
+	production: false,
+	firebaseConfig: {
+		apiKey: "AIzaSyDbiOlO90gBhvpo11E3MwPLmnQ1VQ7eRsE",
+		authDomain: "mixityguesser-nodejs.firebaseapp.com",
+		databaseURL: "https://mixityguesser-nodejs.firebaseio.com",
+		projectId: "mixityguesser-nodejs",
+		storageBucket: "mixityguesser-nodejs.appspot.com",
+		messagingSenderId: "421527882914",
+		appId: "1:421527882914:web:9ae173c1293bf5baa15bfb"
 	}
 };
 
